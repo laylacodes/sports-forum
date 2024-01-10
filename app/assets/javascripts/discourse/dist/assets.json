@@ -1,0 +1,26 @@
+{
+  "assets/discourse.js": {
+    "assets": [
+      "assets/chunk.37c8d247eb9234339193.d41d8cd9.js",
+      "assets/chunk.26dad0386a6ebb0f57db.d41d8cd9.js",
+      "assets/chunk.b6fe5e6147fa75741ff7.d41d8cd9.js"
+    ],
+    "features/markdown-it.js": {
+      "assets": [
+        "assets/chunk.0f50949b229a29652b35.d41d8cd9.js",
+        "assets/chunk.2531ce445d3a2426db0a.d41d8cd9.js",
+        "assets/chunk.0c178722498e2598a61e.d41d8cd9.js"
+      ]
+    }
+  },
+  "assets/test.js": {
+    "assets": [
+      "assets/chunk.0f50949b229a29652b35.d41d8cd9.js",
+      "assets/chunk.37c8d247eb9234339193.d41d8cd9.js",
+      "assets/chunk.aa07b8a283abfa4d9c22.d41d8cd9.js",
+      "assets/chunk.2531ce445d3a2426db0a.d41d8cd9.js",
+      "assets/chunk.26dad0386a6ebb0f57db.d41d8cd9.js",
+      "assets/chunk.01c2d2304409046f14bf.d41d8cd9.js"
+    ]
+  }
+}

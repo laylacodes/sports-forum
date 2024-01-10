@@ -1,0 +1,116 @@
+<!DOCTYPE html><html><head>
+    <meta charset="utf-8">
+    <title>Discourse Tests</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="Discourse Tests">
+    <meta property="og:url" content="/">
+    <meta name="twitter:title" content="Discourse Tests">
+    <meta name="twitter:url" content="/">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="canonical" href="/">
+
+    <meta name="color-scheme" content="light dark">
+
+    <meta name="discourse/config/environment" content="%7B%22modulePrefix%22%3A%22discourse%22%2C%22environment%22%3A%22test%22%2C%22rootURL%22%3A%22%2F%22%2C%22locationType%22%3A%22none%22%2C%22historySupportMiddleware%22%3Afalse%2C%22EmberENV%22%3A%7B%22FEATURES%22%3A%7B%7D%2C%22EXTEND_PROTOTYPES%22%3A%7B%22Date%22%3Afalse%2C%22String%22%3Afalse%7D%2C%22_APPLICATION_TEMPLATE_WRAPPER%22%3Afalse%2C%22_DEFAULT_ASYNC_OBSERVERS%22%3Atrue%2C%22_JQUERY_INTEGRATION%22%3Atrue%2C%22_TEMPLATE_ONLY_GLIMMER_COMPONENTS%22%3Atrue%7D%2C%22exportApplicationGlobal%22%3Atrue%2C%22APP%22%3A%7B%22LOG_ACTIVE_GENERATION%22%3Afalse%2C%22LOG_VIEW_LOOKUPS%22%3Afalse%2C%22rootElement%22%3A%22%23ember-testing%22%2C%22autoboot%22%3Afalse%2C%22name%22%3A%22discourse%22%2C%22version%22%3A%220.0.0%2B18f8ebb2%22%7D%7D">
+<script src="/ember-cli-live-reload.js" type="text/javascript"></script> 
+
+    
+    
+
+<link rel="stylesheet" href="/assets/discourse.css">
+    
+
+<link rel="stylesheet" href="/assets/test-support.css">
+    <link rel="stylesheet" href="/assets/qunit.css">
+    <link rel="stylesheet" href="/assets/qunit-custom.css">
+
+     
+
+    <style>
+      #ember-testing * {
+        -webkit-transition: none !important;
+        -moz-transition: none !important;
+        -o-transition: none !important;
+        transition: none !important;
+      }
+      #qunit-fixture {
+        position: absolute;
+        top: -10000px;
+        left: -10000px;
+        width: 1000px;
+        height: 1000px;
+      }
+    </style>
+  </head>
+  <body>
+    <discourse-assets-icons></discourse-assets-icons>
+
+     
+
+    <script src="/testem.js" integrity=""></script>
+
+    
+<script src="/assets/vendor.js"></script>
+
+
+    
+<script src="/assets/test-support.js"></script>
+
+
+    
+<script src="/assets/chunk.0f50949b229a29652b35.d41d8cd9.js"></script>
+<script src="/assets/chunk.37c8d247eb9234339193.d41d8cd9.js"></script>
+<script src="/assets/chunk.aa07b8a283abfa4d9c22.d41d8cd9.js"></script>
+<script src="/assets/chunk.2531ce445d3a2426db0a.d41d8cd9.js"></script>
+<script src="/assets/chunk.26dad0386a6ebb0f57db.d41d8cd9.js"></script>
+<script src="/assets/chunk.01c2d2304409046f14bf.d41d8cd9.js"></script>
+
+
+    <script src="/assets/test-i18n.js"></script>
+    <script src="/assets/test-site-settings.js"></script>
+    <script src="/assets/admin.js"></script>
+
+    <template id="dynamic-test-js">
+      <link rel="stylesheet" href="/bootstrap/plugin-css-for-tests.css" data-discourse-plugin="_all">
+      <script src="/assets/plugins/chat.js" data-discourse-plugin="chat"></script>
+<script src="/assets/plugins/checklist.js" data-discourse-plugin="checklist"></script>
+<script src="/assets/plugins/discourse-details.js" data-discourse-plugin="discourse-details"></script>
+<script src="/assets/plugins/discourse-lazy-videos.js" data-discourse-plugin="discourse-lazy-videos"></script>
+<script src="/assets/plugins/discourse-local-dates.js" data-discourse-plugin="discourse-local-dates"></script>
+<script src="/assets/plugins/discourse-narrative-bot.js" data-discourse-plugin="discourse-narrative-bot"></script>
+<script src="/assets/plugins/discourse-presence.js" data-discourse-plugin="discourse-presence"></script>
+<script src="/assets/plugins/footnote.js" data-discourse-plugin="footnote"></script>
+<script src="/assets/plugins/poll.js" data-discourse-plugin="poll"></script>
+<script src="/assets/plugins/spoiler-alert.js" data-discourse-plugin="spoiler-alert"></script>
+<script src="/assets/plugins/styleguide.js" data-discourse-plugin="styleguide"></script>
+      <script src="/assets/plugins/test/chat_tests.js" data-discourse-plugin="chat"></script>
+<script src="/assets/plugins/test/checklist_tests.js" data-discourse-plugin="checklist"></script>
+<script src="/assets/plugins/test/discourse-details_tests.js" data-discourse-plugin="discourse-details"></script>
+<script src="/assets/plugins/test/discourse-lazy-videos_tests.js" data-discourse-plugin="discourse-lazy-videos"></script>
+<script src="/assets/plugins/test/discourse-local-dates_tests.js" data-discourse-plugin="discourse-local-dates"></script>
+<script src="/assets/plugins/test/discourse-presence_tests.js" data-discourse-plugin="discourse-presence"></script>
+<script src="/assets/plugins/test/footnote_tests.js" data-discourse-plugin="footnote"></script>
+<script src="/assets/plugins/test/poll_tests.js" data-discourse-plugin="poll"></script>
+<script src="/assets/plugins/test/spoiler-alert_tests.js" data-discourse-plugin="spoiler-alert"></script>
+      <script defer="" src="/assets/scripts/discourse-test-trigger-ember-cli-boot.js" data-embroider-ignore=""></script>
+      <script defer="" src="/assets/scripts/discourse-boot.js" data-embroider-ignore=""></script>
+       <script>
+document.addEventListener('DOMContentLoaded', function() {
+  if (!EmberENV.TESTS_FILE_LOADED) {
+    throw new Error('The tests file was not loaded. Make sure your tests index.html includes "assets/tests.js".');
+  }
+});
+</script>
+    </template>
+
+    <discourse-dynamic-test-js>
+    </discourse-dynamic-test-js>
+
+    <!-- This script takes the <template>, filters plugin assets as required, then appends to discourse-dynamic-test-js -->
+    <script src="/assets/scripts/discourse-test-load-dynamic-js.js"></script>
+
+  
+
+</body></html>

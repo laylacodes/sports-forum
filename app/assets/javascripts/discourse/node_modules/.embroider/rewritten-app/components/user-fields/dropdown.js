@@ -1,0 +1,4 @@
+/* import __COLOCATED_TEMPLATE__ from './dropdown.hbs'; */
+import UserFieldBase from "./base";
+
+export default class UserFieldDropdown extends UserFieldBase {}

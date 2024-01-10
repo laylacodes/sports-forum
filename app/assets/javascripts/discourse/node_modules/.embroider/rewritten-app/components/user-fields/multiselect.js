@@ -1,0 +1,4 @@
+/* import __COLOCATED_TEMPLATE__ from './multiselect.hbs'; */
+import UserFieldBase from "./base";
+
+export default class UserFieldMultiselect extends UserFieldBase {}

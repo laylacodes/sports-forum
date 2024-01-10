@@ -1,0 +1,4 @@
+/* import __COLOCATED_TEMPLATE__ from './confirm.hbs'; */
+import UserFieldBase from "./base";
+
+export default class UserFieldConfirm extends UserFieldBase {}
